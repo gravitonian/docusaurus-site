@@ -3,7 +3,8 @@
     "What's new in Alfresco Content Services": ["doc1"],
     "Supported Platforms": ["doc2"],
     "Video tutorials": ["doc3"],
-    "Using Alfresco Share": ["doc2"]
+    "Using Alfresco Share": ["doc2"],
+    "Deploying": ["doc2"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

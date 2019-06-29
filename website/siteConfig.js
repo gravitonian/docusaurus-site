@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Alfresco Documentation', // Title for your website.
+  tagline: 'Alfresco user, reference, and installation guides',
   url: 'https://gravitonian.github.io', // Your website URL
   baseUrl: '/docusaurus-site/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -48,14 +48,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/alfresco-docs-logo.png',
+  footerIcon: 'img/alfresco-logo.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2d3683',
-    secondaryColor: '#1f255b',
+    primaryColor: '#00bcd4',
+    secondaryColor: '#01579b',
   },
 
   /* Custom fonts for website */
@@ -72,8 +72,8 @@ const siteConfig = {
   },
   */
 
-  // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+    // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
+  copyright: `Copyright © ${new Date().getFullYear()} Alfresco Software, Inc. All Rights Reserved.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

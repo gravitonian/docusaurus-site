@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gravitonian.github.io/docusaurus-site/blog</id>
-    <title>Test Site Blog</title>
+    <title>Alfresco Documentation Blog</title>
     <updated>2017-10-24T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://gravitonian.github.io/docusaurus-site/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Test Site news and events.</subtitle>
-    <logo>https://gravitonian.github.io/docusaurus-site/img/favicon.ico</logo>
-    <rights>Copyright © 2019 Your Name or Your Company Name</rights>
+    <subtitle>The best place to stay up-to-date with the latest Alfresco Documentation news and events.</subtitle>
+    <logo>https://gravitonian.github.io/docusaurus-site/img/alfresco-docs-logo.png</logo>
+    <rights>Copyright © 2019 Alfresco Software, Inc. All Rights Reserved.</rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>
         <id>https://gravitonian.github.io/docusaurus-site/blog/2017/10/24/new-version-1.0.0.html</id>

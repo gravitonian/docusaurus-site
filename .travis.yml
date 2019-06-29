@@ -13,7 +13,7 @@ cache:
   yarn: true
 
 # Build doc website - ends up in website/build/docusaurus-site directory
-after_success:
+script:
   - cd website
   - yarn install
   - yarn run build

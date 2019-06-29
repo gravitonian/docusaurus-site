@@ -12,12 +12,6 @@ before_install:
 cache:
   yarn: true
 
-# Set any env vars you need
-env:
-
-# Run some tests ...
-script:
-
 # Build doc website - ends up in website/build/docusaurus-site directory
 after_success:
   - cd website

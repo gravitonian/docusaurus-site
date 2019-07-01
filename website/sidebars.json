@@ -28,8 +28,7 @@
         "label": "Understanding containerized deployment",
         "ids": [
           "deploying/understanding-containerized-deployment/deployment-concepts",
-          "deploying/understanding-containerized-deployment/alfresco-docker-images",
-
+          "deploying/understanding-containerized-deployment/alfresco-docker-images"
         ]
       },
       "deploying/deploying-helm-aws"

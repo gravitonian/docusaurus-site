@@ -7,7 +7,7 @@ sidebar_label: What's new in ACS
 See what's new in this Alfresco Content Services 6.1 release.
 You can follow our latest updates at Alfrescodocs.
 
-* Alfresco Digital Workspace
+* Alfresco Digital Workspace NEW
 * Alfresco Identity Service
 * ActiveMQ
 * Transform Service

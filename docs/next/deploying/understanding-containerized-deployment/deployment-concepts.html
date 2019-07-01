@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Deployment Concepts · Alfresco Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Alfresco Content Services deployment introduces a number of concepts.&lt;/p&gt;
+"/><meta name="docsearch:version" content="next"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Deployment Concepts · Alfresco Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://gravitonian.github.io/docusaurus-site/"/><meta property="og:description" content="&lt;p&gt;Alfresco Content Services deployment introduces a number of concepts.&lt;/p&gt;
+"/><meta property="og:image" content="https://gravitonian.github.io/docusaurus-site/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://gravitonian.github.io/docusaurus-site/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/docusaurus-site/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://gravitonian.github.io/docusaurus-site/blog/atom.xml" title="Alfresco Documentation Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://gravitonian.github.io/docusaurus-site/blog/feed.xml" title="Alfresco Documentation Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/docusaurus-site/js/scrollSpy.js"></script><link rel="stylesheet" href="/docusaurus-site/css/main.css"/><script src="/docusaurus-site/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docusaurus-site/"><img class="logo" src="/docusaurus-site/img/alfresco-docs-logo.png" alt="Alfresco Documentation"/><h2 class="headerTitleWithLogo">Alfresco Documentation</h2></a><a href="/docusaurus-site/versions"><h3>next</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docusaurus-site/docs/next/whatsnew" target="_self">Docs</a></li><li class=""><a href="/docusaurus-site/docs/next/api" target="_self">API</a></li><li class=""><a href="/docusaurus-site/help" target="_self">Help</a></li><li class=""><a href="/docusaurus-site/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Understanding containerized deployment</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">What&#x27;s new in Alfresco Content Services</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docusaurus-site/docs/next/whatsnew">What&#x27;s new in ACS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Video tutorials</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docusaurus-site/docs/next/video-tutorials/customize-dashboard">Customize your dashboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Using Alfresco Share</h3><ul class=""><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Getting started with Alfresco Share</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus-site/docs/next/using-share/getting-started/signing-in">Signing in</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-site/docs/next/using-share/getting-started/personalize/setting-up-dashboard">Setting up your dashboard</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Working with Alfresco Share</h4><ul><li class="navListItem"><a class="navItem" href="/docusaurus-site/docs/next/using-share/working-with/finding-your-way-around/share-toolbar">Alfresco Share Toolbar</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Deploying</h3><ul class=""><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Understanding containerized deployment</h4><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docusaurus-site/docs/next/deploying/understanding-containerized-deployment/deployment-concepts">Deployment Concepts</a></li><li class="navListItem"><a class="navItem" href="/docusaurus-site/docs/next/deploying/understanding-containerized-deployment/alfresco-docker-images">Alfresco Docker Images</a></li></ul></div><li class="navListItem"><a class="navItem" href="/docusaurus-site/docs/next/deploying/deploying-helm-aws">Deploying ACS with Helm charts on AWS</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Deployment Concepts</h1></header><article><div><span><p>Alfresco Content Services deployment introduces a number of concepts.</p>
+<p>The way you deploy and run Alfresco Content Services has changed significantly since version 6.0. Traditionally, you'd download an installer that installed Java, Tomcat, Database, WARs, tools, etc. and everything was configured to work together out-of-the-box. Then you'd use a script to start things off. That's no longer the case and there are no installers available. We'll be working with Docker containers instead.</p>
+<p>You can start Alfresco Content Services from a number of Docker images. These images are available in the Docker Hub and Quay repositories. However, starting individual Docker containers based on these images, and configuring them to work together might not be the most productive way to get up and running. To make things easier, and achieve a single-step deploy and run solution, a Docker Compose file is available to quickly start Alfresco Content Services when you need to test something or work on a proof-of-concept (PoC).</p>
+<p>There are also Helm charts available to deploy Alfresco Content Services in a Kubernetes cluster, for example, on Amazon Web Services (AWS). These charts are a deployment template which can be used as the basis for your specific deployment needs. The Helm charts are undergoing continual development and improvement and should not be used &quot;as-is&quot; for a production deployment, but should help you save time and effort deploying Alfresco Content Services for your organisation.</p>
+<p>The following is a list of concepts and technologies that you'll need to understand as part of deploying and using Alfresco Content Services. If you know all about Docker, then you can skip this part.</p>
+<p><strong>Virtual Machine Monitor (Hypervisor)</strong></p>
+<p>A Hypervisor is used to run other OS instances on your local host machine. Typically it's used to run a different OS on your machine, such as Windows on a Mac. When you run another OS on your host it is called a guest OS, and it runs in a Virtual Machine (VM).</p>
+<p><strong>Image</strong></p>
+<p>An image is a number of layers that can be used to instantiate a container. This could be, for example, Java and Apache Tomcat. You can find all kinds of Docker images on the public repository Docker Hub. There are also private image repositories (for things like commercial enterprise images), such as the one Alfresco uses called Quay.</p>
+<p><strong>Container</strong></p>
+<p>An instance of an image is called a container. If you start this image, you have a running container of this image. You can have many running containers of the same image.</p>
+<p><strong>Docker</strong></p>
+<p>Docker is one of the most popular container platforms. Docker provides functionality for deploying and running applications in containers based on images.</p>
+<p><strong>Docker Compose</strong></p>
+<p>When you have many containers making up your solution, such as with Alfresco Content Services, and you need to configure each individual container so that they all work well together, then you need a tool for this. Docker Compose is such a tool for defining and running multi-container Docker applications locally. With Compose, you use a YAML file to configure your application's services. Then, with a single command, you create and start all the services from your configuration.</p>
+<p><strong>Dockerfile</strong></p>
+<p>A Dockerfile is a script containing a successive series of instructions, directions, and commands which are run to form a new Docker image. Each command translates to a new layer in the image, forming the end product. The Dockerfile replaces the process of doing everything manually and repeatedly. When a Dockerfile finishes building, the end result is a new image, which you can use to start a new Docker container.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docusaurus-site/docs/next/using-share/working-with/finding-your-way-around/share-toolbar"><span class="arrow-prev">← </span><span>Alfresco Share Toolbar</span></a><a class="docs-next button" href="/docusaurus-site/docs/next/deploying/understanding-containerized-deployment/alfresco-docker-images"><span>Alfresco Docker Images</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/docusaurus-site/" class="nav-home"><img src="/docusaurus-site/img/alfresco-logo.png" alt="Alfresco Documentation" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docusaurus-site/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docusaurus-site/docs/en/doc2.html">Guides (or other categories)</a><a href="/docusaurus-site/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/docusaurus-site/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/docusaurus-site/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://opensource.facebook.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/docusaurus-site/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2019 Alfresco Software, Inc. All Rights Reserved.</section></footer></div></body></html>

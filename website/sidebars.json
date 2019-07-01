@@ -1,10 +1,29 @@
 {
   "docs": {
-    "What's new in Alfresco Content Services": ["doc1"],
-    "Supported Platforms": ["doc2"],
-    "Video tutorials": ["doc3"],
-    "Using Alfresco Share": ["doc2"],
-    "Deploying": ["doc2"]
+    "What's new in Alfresco Content Services": ["whatsnew"],
+    "Video tutorials": {
+      "Tour of Alfresco Share": ["video-tour-of-share"],
+      "Customize your dashboard": ["customize-dashboard"]
+    },
+    "Using Alfresco Share": {
+      "Getting started with Alfresco Share": {
+        "Signing in": ["signing-in"],
+        "Personalizing Alfresco Share": {
+          "Setting up your dashboard": ["setting-up-dashboard"]
+        }
+      },
+      "Working with Alfresco Share": {
+        "Finding your way around": {
+          "Alfresco Share toolbar": ["share-toolbar"]
+        }
+      }
+    },
+    "Deploying": {
+      "Understanding containerized deployment": {
+        "Deployment concepts": ["deployment-concepts"],
+        "Alfresco Docker images": ["alfresco-docker-images"]
+      }
+    }
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

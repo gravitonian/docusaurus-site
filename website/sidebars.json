@@ -1,31 +1,38 @@
 {
   "docs": {
     "What's new in Alfresco Content Services": ["whatsnew"],
-    "Video tutorials": {
-      "Tour of Alfresco Share": ["video-tour-of-share"],
-      "Customize your dashboard": ["customize-dashboard"]
-    },
-    "Using Alfresco Share": {
-      "Getting started with Alfresco Share": {
-        "Signing in": ["signing-in"],
-        "Personalizing Alfresco Share": {
-          "Setting up your dashboard": ["setting-up-dashboard"]
-        }
+    "Video tutorials": [
+      "video-tutorials/video-tour-of-share.md",
+      "video-tutorials/customize-dashboard"
+    ],
+    "Using Alfresco Share": [
+      {
+        "type": "subcategory",
+        "label": "Getting started with Alfresco Share",
+        "ids": [
+          "using-share/getting-started/signing-in",
+          "using-share/getting-started/personalize/setting-up-dashboard"
+        ]
       },
-      "Working with Alfresco Share": {
-        "Finding your way around": {
-          "Alfresco Share toolbar": ["share-toolbar"]
-        }
+      {
+        "type": "subcategory",
+        "label": "Working with Alfresco Share",
+        "ids": [
+          "using-share/working-with/finding-your-way-around/share-toolbar"
+        ]
       }
-    },
-    "Deploying": {
-      "Understanding containerized deployment": {
-        "Deployment concepts": ["deployment-concepts"],
-        "Alfresco Docker images": ["alfresco-docker-images"]
-      }
-    }
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    ],
+    "Deploying": [
+      {
+        "type": "subcategory",
+        "label": "Understanding containerized deployment",
+        "ids": [
+          "deploying/understanding-containerized-deployment/deployment-concepts",
+          "deploying/understanding-containerized-deployment/alfresco-docker-images",
+
+        ]
+      },
+      "deploying/deploying-helm-aws"
+    ]
   }
 }

@@ -38,6 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { search: true },
     {doc: 'whatsnew', label: 'Docs'},
     {doc: 'api', label: 'API'},
     {page: 'help', label: 'Help'},
@@ -91,6 +92,12 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
+
+  algolia: {
+      apiKey: 'my-api-key',
+      indexName: 'my-index-name',
+      algoliaOptions: {} // Optional, if provided by Algolia
+  }
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,

@@ -48,8 +48,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/alfresco-docs-logo.png',
-  footerIcon: 'img/alfresco-logo.png',
+  headerIcon: 'img/AlfrescoLogo32.png',
+  footerIcon: 'img/AlfrescoLogo32.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */

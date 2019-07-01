@@ -16,5 +16,5 @@ You can get the sign in URL from your IT team. If you've downloaded Alfresco Sha
 2. Click **Sign In**.
 This opens your personal dashboard. You can now configure the dashboard so that it shows the information most important to you.
 
-![Share Dashboard](/img/using-share/gs-share-firstlogin.png)
+![Share Dashboard](img/using-share/gs-share-firstlogin.png)
 

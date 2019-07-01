@@ -9,7 +9,7 @@
         <generator>Feed for Node.js</generator>
         <image>
             <title>Alfresco Documentation Blog</title>
-            <url>https://gravitonian.github.io/docusaurus-site/img/AlfrescoLogo32.png</url>
+            <url>https://gravitonian.github.io/docusaurus-site/img/alfresco-logo.png</url>
             <link>https://gravitonian.github.io/docusaurus-site/blog</link>
         </image>
         <copyright>Copyright © 2019 Alfresco Software, Inc. All Rights Reserved.</copyright>

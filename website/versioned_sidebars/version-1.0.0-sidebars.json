@@ -1,0 +1,39 @@
+{
+  "version-1.0.0-docs": {
+    "What's new in Alfresco Content Services": [
+      "version-1.0.0-whatsnew"
+    ],
+    "Video tutorials": [
+      "version-1.0.0-video-tutorials/video-tour-of-share.md",
+      "version-1.0.0-video-tutorials/customize-dashboard"
+    ],
+    "Using Alfresco Share": [
+      {
+        "type": "subcategory",
+        "label": "Getting started with Alfresco Share",
+        "ids": [
+          "version-1.0.0-using-share/getting-started/signing-in",
+          "version-1.0.0-using-share/getting-started/personalize/setting-up-dashboard"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Working with Alfresco Share",
+        "ids": [
+          "version-1.0.0-using-share/working-with/finding-your-way-around/share-toolbar"
+        ]
+      }
+    ],
+    "Deploying": [
+      {
+        "type": "subcategory",
+        "label": "Understanding containerized deployment",
+        "ids": [
+          "version-1.0.0-deploying/understanding-containerized-deployment/deployment-concepts",
+          "version-1.0.0-deploying/understanding-containerized-deployment/alfresco-docker-images"
+        ]
+      },
+      "version-1.0.0-deploying/deploying-helm-aws"
+    ]
+  }
+}

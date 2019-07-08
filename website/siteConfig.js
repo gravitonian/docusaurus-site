@@ -46,7 +46,7 @@ const siteConfig = {
   ],
 
   editUrl: 'https://github.com/gravitonian/docusaurus-site/edit/master/docs/',
-            
+
   // If you have users set above, you add it here:
   users,
 
@@ -99,7 +99,7 @@ const siteConfig = {
       apiKey: 'my-api-key',
       indexName: 'my-index-name',
       algoliaOptions: {} // Optional, if provided by Algolia
-  }
+  },
 
   // Show documentation's last contributor's name.
   enableUpdateBy: true,

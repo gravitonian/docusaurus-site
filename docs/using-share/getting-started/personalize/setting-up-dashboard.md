@@ -4,7 +4,7 @@ title: Setting up your dashboard
 sidebar_label: Setting up your dashboard
 ---
 
-You can customize your dashboard so that you only see the information that you're interested in.
+You can CUSTOMIZE your dashboard so that you only see the information that you're interested in.
 
 **To customize your dashboard appearance and content**:
 
